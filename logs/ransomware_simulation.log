@@ -1,0 +1,10 @@
+import logging
+
+logging.basicConfig(
+    filename='logs/ransomware_simulation.log',
+    level=logging.INFO,
+    format='%(asctime)s - %(message)s'
+)
+
+# Example usage of logging
+logging.info('Encryption started')
